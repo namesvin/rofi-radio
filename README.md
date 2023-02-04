@@ -30,6 +30,12 @@ http://station2.url/
 - now test it by running `./rofi-radio`
 - if all is good, install it by running `sudo mv rofi-radio /usr/bin/` (or any directory on your path)
 
+### binding
+in i3 i have this bound to my thinkvantage key, you can do something like this with this line in your i3 config
+```
+bindsym XF86Launch1 exec --no-startup-id rofi-radio
+```
+
 ## issues
 open an issue, or fix it and submit a pr
 
